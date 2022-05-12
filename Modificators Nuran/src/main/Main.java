@@ -3,13 +3,13 @@ package main;
 public class Main {
 
 	public static void main(String[] args) {
-		Car car = new Car();
-		car.name= "Mercedes";
-		car.speed = 300;
-		car.price = 999999;
-		CarInterface carinterface = new Car();
-		carinterface.carPrice(car.name, car.speed);
-		carinterface.carPrice(car.name, car.price);
+		Student student = new Student();
+		student.name= "Nuran";
+		student.classs = 8;
+		student.point = 5;
+		student.teachername = "Rasim";
+		StudentInterface studentinterface = new Student();
+		studentinterface.Student(student.name, student.classs, student.point, student.teachername);
 		
 	}
 
